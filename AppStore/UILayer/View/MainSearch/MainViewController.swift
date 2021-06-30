@@ -40,7 +40,9 @@ final class MainViewController: BaseViewController {
 			$0.rowHeight = UITableView.automaticDimension
 		}
 		setupSearchBar()
-		viewModel = AppListViewModel(useCase: SearchUseCase(input: ""), navigator: AppStoreNavigator())
+		let router = AppStoreNavigator()
+		router.viewController = self
+		viewModel = AppListViewModel(useCase: SearchUseCase(input: ""), navigator: router)
 	}
 
 	// UISearchBar 초기 세팅

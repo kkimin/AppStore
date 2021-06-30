@@ -34,15 +34,8 @@ protocol LinkTransferMemoListDataStore {
 }
 
 class AppStoreNavigator: Navigator, LinkTransferMemoListDataPassing {
-	//private let storyBoard: UIStoryboard
-	//private let navigationController: UINavigationController
 	weak var viewController: UIViewController?
 	var dataStore: LinkTransferMemoListDataStore?
-
-	//init(navigationController: UINavigationController) {
-		//self.navigationController = navigationController
-		//self.storyBoard = storyBoard
-	//}
 
 	func goDetail(_ app: AppModel) {
 		if let nextViewController = getViewController(storyboardName: "Main", identifier: "AppDetailView") as? AppDetailViewController {
