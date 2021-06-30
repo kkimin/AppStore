@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SwiftLint (0.43.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - Reusable
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SwiftLint
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Reusable
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftLint
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 6ab905e74de96e4c56749ed180210b000e1b7b90
+
+COCOAPODS: 1.10.1
